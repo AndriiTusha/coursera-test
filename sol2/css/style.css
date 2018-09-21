@@ -1,0 +1,69 @@
+h1 {
+			text-align: center;
+		}
+		
+		.row{
+			width: 100%;
+		}
+
+		div {
+			position: relative;
+		}
+
+		.section {
+			position: absolute;
+			top: -1px;
+			right: -1px;
+		}
+
+		.sec1{
+			background-color: pink;
+		}
+		.sec2{
+			background-color: red;
+		}
+		.sec3{
+			background-color: yellow;
+		}
+
+		p {
+			width: 80%;
+			height: 80%;
+			margin-top: 30px;
+			margin-right: auto;
+			margin-left: auto;
+			background-color: gray;
+		}
+		.section {
+			padding: 0 10px;
+			border: 1px solid black;
+		}
+
+		.col-1, .col-2, .col-3 {
+			border: 1px solid black;
+			margin-right: 10px;
+			margin-bottom: 10px;
+		}
+
+		@media (min-width: 992px) {
+			.col-lg {
+				float: left;
+				margin-right: 1%;
+				width: 32%;
+			}
+			.col-3{
+				margin-right: 0;
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991px) {
+			.col-md {
+				float: left;
+				width: 49%;
+			}
+			.col-3 {
+				width: 100%;
+			}
+			.col-2, .col-3 {
+				margin-right: 0;
+			}
+		}
